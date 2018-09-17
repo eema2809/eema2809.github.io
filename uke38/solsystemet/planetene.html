@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>planetene</title>
+
+<style media="screen">
+
+header,main,footer{
+  width: 1000px;
+  margin: auto;
+}
+body{
+  background-color: #e0e0e0;
+  color: #323232;
+  font-family: verdana,sans-serif;
+}
+header{
+  font-size: 25px;
+  text-align: center;
+}
+nav{
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-column-gap: 2px;
+  margin: auto;
+  width: 602px;
+
+
+}
+
+
+
+nav>article>a{
+  background-color:blue;
+  font-style: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+
+
+}
+nav>article>a:hover{
+  background-color: lightblue;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  margin-top: 50px;
+}
+
+
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+
+}
+
+</style>
+
+  </head>
+  <body>
+
+<header>
+
+<h1>Planetene</h1>
+
+<nav>
+  <article> <a href="index.html">Hjem</a> </article>
+  <article> <a href="vår_planet.html">Vår Planet</a> </article>
+</nav>
+
+</header>
+
+<main>
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mercury_transit_1.jpg/250px-Mercury_transit_1.jpg" alt="Merkur">
+  </div>
+  <div>
+    <img src="https://c1.staticflickr.com/5/4704/24771639777_c053614594_b.jpg" alt="Venus">
+  </div>
+  <div>
+    <img src="http://cdn3-europe1.new2.ladmedia.fr/var/europe1/storage/images/media/images/nasa-terre-2015/21301402-1-fre-FR/Nasa-Terre-2015_scalewidth_714.jpg" alt="Jorda">
+  </div>
+  <div>
+    <img src="http://www.astroevents.no/bilder/Mars_23_aug_2003_hubble.jpg" alt="Mars">
+  </div>
+  <div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jupiter_by_Cassini-Huygens.jpg/250px-Jupiter_by_Cassini-Huygens.jpg" alt="Jupitur">
+  </div>
+  <div>
+    <img src="https://images.interactives.dk/files/bonnier-ill/pictures/saturn_0.jpg?auto=compress&ch=Width%2CDPR&ixjsv=2.2.4&rect=55%2C0%2C2889%2C2000&w=750" alt="Saturn">
+  </div>
+
+</main>
+
+  </body>
+</html>
