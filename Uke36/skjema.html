@@ -4,6 +4,44 @@
     <meta charset="utf-8">
     <title>Skjema</title>
   </head>
+
+<style media="screen">
+ body{
+   background-color: #e0e0e0;
+   font-family: verdana,arial,sans-serif;
+   font-size: 24px;
+   color: #323232;
+ }
+
+input[type="text"], input[type="number"], input[type="password"], input[type="date"]{ <--!spesifiserer hva slags input dette skal gjelde-->
+  display: block;
+  width: 220px;
+  padding: 5px; <--! for å lage litt luft rundt teksten-->
+  color: #666666; <--! en mørkegrå farge til teksten inni tekstfeltene-->
+  border: none; <--! ren hvit boks uten kantlinje-->
+  border-radius: 4px;
+  margin-bottom: 10px; <--! for å lage luft mellom delene av skjemaet-->
+}
+
+button {
+  display: block;
+  padding: 8px 15px; <--! først over-under padding og så høyre-venstre-->
+  font-weight: bold;
+  color: #444444;
+  border: none;
+  background-color: #888888;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
+
+
+
+</style>
+
+
+
   <body>
     <h1>Undersøkelse</h1>
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudoklasser og pseudoselektorer</title>
+
+    <style media="screen">
+
+    img{
+      width:300px;
+      transition: 1s;
+    }
+    #bySvartHvit:hover{
+      width: 600px;
+    }
+    #byIfarger:active{
+      transform: translateX(100px);
+    }
+    #byIfarger2:hover{
+      transform: scale(2); --! utvider seg i alle retninger--
+    }
+
+    </style>
+</head>
+  <body>
+
+    <img id="bySvartHvit"src="https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="by">
+    <img id="byIfarger" src="https://images.pexels.com/photos/325193/pexels-photo-325193.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="by">
+    <img id="byIfarger2" src="https://images.pexels.com/photos/325193/pexels-photo-325193.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="by">
+
+  </body>
+</html>
