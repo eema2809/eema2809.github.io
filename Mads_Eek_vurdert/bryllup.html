@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bryllup</title>
+
+    <style media="screen">
+
+    body{
+      background-color: lightblue;
+      font-family: verdana, arial, sans-serif;
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+
+    h1{
+      font-style: italic;
+    }
+
+    img{
+      width: 400px;
+    }
+    </style>
+  </head>
+  <body>
+
+<header>
+  <h1>Bryllup</h1>
+
+  <nav>
+    <ul>
+      <li> <a href="index.html">Hjem</a> </li>
+      <li> <a href="bursdag.html">Barnebursdag</a> </li>
+      <li> <a href="bryllup.html">Bryllup</a> </li>
+      <li> <a href="klassefest.html">klassefest</a> </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <img src="vedlegg/bilder/bryllup.jpg" alt="Bryllup">
+
+  <form action="skjemaregister.html">
+
+    <label>Navn:</label>
+    <input type="text" name="Navn" required placeholder="Skriv inn navn">
+    <br>
+    <br>
+    <label>Kommer du med eller uten følge?</label>
+    <br>
+    <input type="radio" name="rbFølge" value="med"><label>med følge</label>
+    <input type="radio" name="rbFølge" value="uten"><label>uten følge</label>
+    <br>
+    <br>
+    <select name="VelgMat" required>
+      <option value="">Velg mat</option>
+      <option value="taco">Taco</option>
+      <option value="fisk">Fisk</option>
+      <option value="pizza">Pizza</option>
+    </select>
+    <br>
+    <br>
+    <button type="submit" name="button">send inn</button>
+
+  </form>
+</main>
+  </body>
+</html>
