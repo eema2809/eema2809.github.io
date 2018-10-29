@@ -1,0 +1,68 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+header {
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  background-color: white;
+}
+header>.Lenke {
+  align-self: center;
+}
+header>.Lenke>a {
+  text-decoration: none;
+  border: solid black 2px;
+  background: lightgrey;
+  color: black;
+  padding: 5px;
+}
+header>.Lenke>a:hover {
+  background-color: white;
+}
+#logo {
+  display: block;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(50px,auto);
+  grid-gap: 10px;
+  margin: auto;
+  width: 80%;
+}
+.middelssak {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.middelbilde {
+  width: 100%;
+  height: 90%;
+}
+.storsak {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+.litenbilde {
+  width: 100%;
+  height: 90%;
+}
+.middeltekst {
+  font-size: 30px;
+  font-weight: bold;
+}
+.litentekst {
+  font-size: 20px;
+  font-weight: bold;
+}
+.stortekst {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.storbilde {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 90%;
+}
