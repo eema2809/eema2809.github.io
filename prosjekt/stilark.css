@@ -1,0 +1,30 @@
+body {
+  font-family: verdana, arial, sans-serif;
+}
+.bg-image {
+  background-image: url();
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+}
+nav>.lenke {
+  align-self: center;
+  text-align: center;
+  width: 150px;
+}
+nav>.lenke>a {
+  text-decoration: none;
+  border: solid black 2px;
+  background: lightgrey;
+  color: black;
+  padding: 5px;
+
+}
+nav>.lenke>a:hover {
+  background-color: white;
+}
