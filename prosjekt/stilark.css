@@ -1,30 +1,89 @@
 body {
-  font-family: verdana, arial, sans-serif;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+  margin:0;
+  background-color: #f2f2f2
 }
-.bg-image {
-  background-image: url();
-  height: 400px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+header {
+  height: 130px;
+  width:100%;
 }
-nav {
+#logo {
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#logo>img {
+  grid-row: span 2;
+}
+header>nav>#handlekurv>img {
+  display: block;
+  width: 20px; <!-- får ikke endret størrelse på handlekurv bilde-->
+}
+header>nav {
   display: grid;
-  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr;
+  position: absolute;
 }
-nav>.lenke {
+header>nav>.lenke {
   align-self: center;
   text-align: center;
   width: 150px;
 }
-nav>.lenke>a {
+header>nav>.lenke>a {
   text-decoration: none;
-  border: solid black 2px;
-  background: lightgrey;
+  font-size: 20px;
   color: black;
   padding: 5px;
+}
+header>nav>.lenke>a:hover {
+  text-decoration: underline;
+}
+main>.forside_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
 
 }
-nav>.lenke>a:hover {
+main>.forside_grid>.forside_bilder_stor {
+  grid-column: span 6;
+  grid-row: span 4;
+  margin-bottom: 75px;
+}
+main>.forside_grid>.forside_bilder_stor>img {
+  display: block;
+  width: 1440px;
+}
+main>.forside_grid>.forside_bilder_middel {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+main>.forside_grid>.forside_bilder_middel>img {
+  display: block;
+  width: 710px;
+}
+main>.bestselgere_alt {
+  margin-top: 150px;
+  margin-left: 10px;
+  width: 1420px;
+}
+main>.bestselgere_alt>.bestselgere_overskrift {
+  font-size: 35px;
+}
+main>.bestselgere_alt>.bestselgere_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 42px;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere {
+  width: 323px;
   background-color: white;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.bestselgere_bilder>img {
+  display: block;
+  width: 323px;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.bestselgere_head,.bestselgere_pris,.bestselgere_tekst {
+  padding-left: 15px
+
 }
