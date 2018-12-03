@@ -69,7 +69,8 @@ main>.forside_grid>.forside_bilder_stor {
 }
 main>.forside_grid>.forside_bilder_stor>img {
   display: block;
-  width: 1440px;
+  width: 1420px;
+  margin: auto;
 }
 main>.forside_grid>.forside_bilder_middel {
   grid-column: span 3;
@@ -77,7 +78,8 @@ main>.forside_grid>.forside_bilder_middel {
 }
 main>.forside_grid>.forside_bilder_middel>img {
   display: block;
-  width: 710px;
+  width: 692.5px;
+  margin: auto;
 }
 main>.bestselgere_alt {
   margin-top: 150px;
@@ -169,6 +171,92 @@ main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action:hover {
 }
 #kontakt>.kontakt_innhold>.kontakt_bilde>img {
   width: 800px;
+  margin: auto;
+}
+#kaffer {
+  padding-top: 150px;
+  width: 1420px;
+  margin: auto;
+}
+#kaffer>.kaffer_alt {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 42px;
+  grid-row-gap: 42px;
+}
+#kaffer>.kaffer_alt>.kjøp_info,.kaffer_info,.kaffer_innhold {
+  background-color: white;
+}
+#kaffer>.kaffer_alt>.kjøp_info {
+  height: 580px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kjøp_info_tekst {
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action {
+  text-align: center;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  background-color: #00cc44;
+  border-radius: 5%;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action:hover {
+  background-color: #00e64d;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.usynlig {
+height: 42px;
+background-color: #f2f2f2;
+color: #f2f2f2;
+margin-top: 5px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold {
+  height: 400px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>h3 {
+  font-size: 35px;
+  text-align: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 80px;
+  border-bottom: solid 2px #cccccc;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>#li1 {
+  border: none;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.bønne_ikon>img,.tørket_ikon>img,.høyde_ikon>img {
+  height: 80px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.tekst_liste {
+  padding-left: 50px;
+  font-size: 25px;
+  align-items: center;
+}
+#kaffer>.kaffer_alt>.kaffer_info>.tekst {
+  width: 900px;
+  margin: auto;
+}
+#kaffer>.kaffer_alt>.kaffer_info>.kart>img {
+  display: block;
+  width: 600px;
   margin: auto;
 }
 footer {
