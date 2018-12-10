@@ -222,7 +222,7 @@ color: #f2f2f2;
 margin-top: 5px;
 }
 #kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold {
-  height: 400px;
+  height: auto;
 }
 #kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>h3 {
   font-size: 35px;
@@ -238,12 +238,15 @@ margin-top: 5px;
   padding-bottom: 10px;
   height: 80px;
   border-bottom: solid 2px #cccccc;
+  display: flex;
+  align-items: center;
 }
 #kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>#li1 {
   border: none;
 }
 #kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.bønne_ikon>img,.tørket_ikon>img,.høyde_ikon>img {
   height: 80px;
+  width: 120px;
 }
 #kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.tekst_liste {
   padding-left: 50px;
@@ -258,6 +261,49 @@ margin-top: 5px;
   display: block;
   width: 600px;
   margin: auto;
+}
+#handlekurv>.handleliste_alt>.handleliste_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table {
+  width: 1420px;
+  background-color: white;
+  margin: auto;
+  border-style: solid;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>thead {
+  padding-top: 5px;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>thead>tr>th {
+  border-bottom: solid 2px #cccccc;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>tbody>tr>td {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>tbody>tr>td>img {
+  width: 130px;
+  height: 130px;
+}
+  #handlekurv>.handleliste_alt>.handleliste_innhold>.action {
+    text-align: center;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    background-color: #00cc44;
+    border: solid 2px grey;
+    margin-top: 5px;
+  }
+  #handlekurv>.handleliste_alt>.handleliste_innhold>.action>a {
+    text-decoration: none;
+    font-family: curriur, arial, verdana, sans-serif;
+    color: #333;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action:hover {
+  background-color: #00e64d;
 }
 footer {
   background-color: white;
