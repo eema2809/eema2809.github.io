@@ -4,6 +4,7 @@ body {
   margin:0;
   background-color: #f2f2f2
 }
+/*CSS-Navbar start*/
 header {
   height: 130px;
   width:100%;
@@ -57,6 +58,9 @@ header>nav>.lenke>a:hover {
   border-bottom: 2px solid #4d4d4d;
   text-decoration: none;
 }
+/*CSS-Navbar slutt*/
+
+/*CSS-Main og Kaffe start*/
 main>.forside_grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -133,6 +137,9 @@ main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action:hover {
   font-size: 35px;
   text-align: center;
 }
+/*CSS-Main og Kaffe slutt*/
+
+/*CSS-Kaffe_helse start*/
 #helse>.helse_innhold {
   width: 1000px;
   margin: auto;
@@ -160,6 +167,9 @@ main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action:hover {
 #helse>.helse_innhold>.helse_info3 {
   border-bottom-color: white;
 }
+/*CSS-Kaffe_helse slutt*/
+
+/*CSS-Kontakt start*/
 #kontakt>.kontakt_innhold {
   width: 1000px;
   background-color: white;
@@ -173,6 +183,9 @@ main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action:hover {
   width: 800px;
   margin: auto;
 }
+/*CSS-Kontakt slutt*/
+
+/*CSS-Kaffe enkeltsider start*/
 #kaffer {
   padding-top: 150px;
   width: 1420px;
@@ -262,6 +275,9 @@ margin-top: 5px;
   width: 600px;
   margin: auto;
 }
+/*CSS-Kaffe enkeltsider slutt*/
+
+/*CSS-Handlekurv start*/
 #handlekurv>.handleliste_alt>.handleliste_overskrift {
   font-size: 35px;
   text-align: center;
@@ -287,24 +303,27 @@ margin-top: 5px;
   width: 130px;
   height: 130px;
 }
-  #handlekurv>.handleliste_alt>.handleliste_innhold>.action {
-    text-align: center;
-    width: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    background-color: #00cc44;
-    border: solid 2px grey;
-    margin-top: 5px;
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action {
+  text-align: center;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  background-color: #00cc44;
+  border: solid 2px grey;
+  margin-top: 5px;
   }
-  #handlekurv>.handleliste_alt>.handleliste_innhold>.action>a {
-    text-decoration: none;
-    font-family: curriur, arial, verdana, sans-serif;
-    color: #333;
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
 }
 #handlekurv>.handleliste_alt>.handleliste_innhold>.action:hover {
   background-color: #00e64d;
 }
+/*CSS-Handlekurv slutt*/
+
+/*CSS-Footer start*/
 footer {
   background-color: white;
   margin-top: 50px;
@@ -327,3 +346,4 @@ footer>.footer_tekst>.footer_info>ul>.footer_epost>li>a {
   text-decoration: none;
   color: #333;
 }
+/*CSS-Footer slutt*/
