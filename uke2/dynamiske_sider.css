@@ -1,0 +1,153 @@
+
+h1 {
+  text-align: center;
+}
+/*nav {
+  border-top: solid black;
+  border-bottom: solid black;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  align-items: center;
+}*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 50px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+  height: 33px;
+}
+
+.topnav .icon {
+  display: none;
+}
+/*
+nav>.b {
+  width: 100px;
+  margin: auto;
+}
+nav>.b>.tekst {
+text-align: center;
+}
+*/
+.overskrift {
+  font-size: 20px;
+}
+.bilde>img {
+  width: 100px;
+}
+.boks {
+  margin:auto;
+  text-align: center;
+  background-color: lightgrey;
+  border: solid black 2px;
+  width: 200px;
+  height: 200px;
+}
+.grid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media (max-width:1100px) {
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width:800px) {
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  nav {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+}
+/*@media (max-width:600px) {
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .boks {
+    border-color: red;
+  }
+  nav{
+    display: none;
+    border: none;
+  }
+  .drop {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height:auto;
+  }
+  .drop-innhold {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+  }
+  .drop:hover .drop-innhold {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+}*/
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.burger>div {
+  margin-bottom: 6px;
+  margin-top: 0px;
+  color: black;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+}

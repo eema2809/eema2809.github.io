@@ -1,0 +1,19 @@
+
+body{
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/0a/54/93/07/hotel-natur.jpg");
+}
+@media (max-width:1000px) {
+  body{
+    background-image: url("https://cluberiks.no/wp-content/uploads//2018/06/island-natur-topmall.jpg");
+  }
+}
+@media (max-width:800px) {
+  body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/06/20/44/tree-2722972_960_720.jpg");
+  }
+}
+@media (max-width:600px) {
+  body{
+    background-url: image("https://images.pexels.com/photos/973226/pexels-photo-973226.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  }
+}
