@@ -1,0 +1,20 @@
+{
+  "kontakter":{
+    "1":{
+      "firstName":"Mads Olav",
+      "lastName":"Eek",
+      "telephone":97726999,
+      "adresse":"Gml Ringeriksvei",
+      "familie":["mor","far","to brødre","søster"],
+      "fødselsdato":"28/09/00"
+    },
+    "2":{
+      "firstName":"MJ",
+      "lastName":"Rønning",
+      "telephone":99926999,
+      "adresse":"Slependen",
+      "familie":["mor","far","søster"],
+      "fødselsdato":"14/06/00"
+    }
+  }
+}
