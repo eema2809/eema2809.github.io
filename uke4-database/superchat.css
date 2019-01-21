@@ -1,0 +1,22 @@
+body {
+  background-color: #eeee;
+}
+h1 {
+  font-family: times,sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+}
+main {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+p {
+  width: 120px;
+  margin: auto;
+  margin-top: 10px;
+}
+p:nth-child{
+  background-color: white
+}

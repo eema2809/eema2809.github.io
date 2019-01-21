@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="superchat.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1>Superchat</h1>
+    </header>
+    <main>
+      <form id="skjema" action="index.html" method="post">
+        <input type="text" id="inpNavn" value="" required placeholder="Navn..">
+        <input type="text" id="inpMelding" required value="" placeholder="Melding..">
+        <button type="submit" class="button" name="button">send</button>
+      </form>
+      <article id="txtMeldinger"></article>
+      <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyAQzk1iR3RXewlIpYrKZe363v5aoTlXyxg",
+          authDomain: "mindatabase-7aed2.firebaseapp.com",
+          databaseURL: "https://mindatabase-7aed2.firebaseio.com",
+          projectId: "mindatabase-7aed2",
+          storageBucket: "mindatabase-7aed2.appspot.com",
+          messagingSenderId: "1067915312512"
+        };
+        firebase.initializeApp(config);
+      </script>
+      <script type="text/javascript">
+        let database = firebase.database();
+        let meldinger = database.ref("meldinger");
+        let skjema = document.
+        getElementById("skjema");
+        let inpNavn = document.getElementById("inpNavn");
+        let inpMelding = document.getElementById("inpMelding");
+        let txtMeldinger = document.getElementById("txtMeldinger");
+        function visMelding(snapshot){
+          let melding = snapshot.val();
+          let meldingTekst=`<p>
+            <b>${melding.avsender}:</b>
+            <i>${melding.tekst}</i>
+          </p>`;
+          txtMeldinger.innerHTML = txtMeldinger.innerHTML + meldingTekst;
+        }
+        function regNyMelding(evt){
+          evt.preventDefault();
+          var nyMelding={
+            avsender:inpNavn.value,
+            tekst:inpMelding.value
+          };
+          meldinger.push(nyMelding);
+          inpMelding.value="";
+        }
+        meldinger.on("child_added",visMelding);
+        skjema.onsubmit = regNyMelding;
+      </script>
+    </main>
+  </body>
+</html>
