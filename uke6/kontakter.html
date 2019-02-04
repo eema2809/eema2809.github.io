@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      /* var config = {
+        apiKey: "AIzaSyD8sXeJXyJHWl8LLNaKAKcCLEA6Qvclexw",
+        authDomain: "mittprosjekt-d6f00.firebaseapp.com",
+        databaseURL: "https://mittprosjekt-d6f00.firebaseio.com",
+        projectId: "mittprosjekt-d6f00",
+        storageBucket: "mittprosjekt-d6f00.appspot.com",
+        messagingSenderId: "1080728351536"
+      };
+      firebase.initializeApp(config); */
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const db = firebase.database();
+      const bloggere = db.ref("bloggere");
+
+      bloggere.push({
+        "navn":"Sofie Elise",
+        "følgere":59000,
+        "alder":23
+      });
+
+      const billGates = bloggere.child(90440000);
+      billGates.set({
+        "navn":"Bill Gates",
+        "epost":"bill@microsoft.com"
+      });
+
+      const steveJobs = bloggere.child(90440000);
+      steveJobs.set({
+        "navn":"Steve Jobs",
+        "epost":"steve@apple.com"
+      });
+
+      //endre data
+      steveJobs.update({
+        "navn":"Jeff Bezos"
+      })
+
+    </script>
+  </body>
+</html>

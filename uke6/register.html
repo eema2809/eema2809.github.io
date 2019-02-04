@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+  </head>
+  <body>
+    <section>
+      <form id="skjema">
+        <input id="inpNavn" type="text" required placeholder="navn">
+        <input id="inpTelefon" type="text" required placeholder="telefon">
+        <input id="inpEpost" type="text" required placeholder="epost">
+        <button type="submit">Registrer</button>
+      </form>
+    </section>
+    <section id="secKontakter">
+
+    </section>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD8sXeJXyJHWl8LLNaKAKcCLEA6Qvclexw",
+        authDomain: "mittprosjekt-d6f00.firebaseapp.com",
+        databaseURL: "https://mittprosjekt-d6f00.firebaseio.com",
+        projectId: "mittprosjekt-d6f00",
+        storageBucket: "mittprosjekt-d6f00.appspot.com",
+        messagingSenderId: "1080728351536"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="./register.js"></script>
+  </body>
+
+</html>
