@@ -183,9 +183,6 @@ main>.hovedbilde>img {
   width: 98.611%;
   margin: auto;
 }
-#secKaffe>.kaffer:hover {
-  box-shadow: 1px 1px 1px 1px grey;
-}
 #secKaffe {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -245,6 +242,9 @@ main>.hovedbilde>img {
   grid-column-gap: 42px;
   grid-row-gap: 42px;
   margin-bottom: 100px;
+}
+#kaffer>.kaffer_alt>.kaffer_bilde>img {
+  width: 100%;
 }
 #kaffer>.kaffer_alt>.kjøp_info,.kaffer_info,.kaffer_innhold {
   background-color: white;
@@ -421,6 +421,7 @@ margin-top: 5px;
 footer {
   background-color: white;
   margin-top: 50px;
+  margin-bottom: 0;
   padding-top: 10px;
   padding-bottom: 20px;
 }
