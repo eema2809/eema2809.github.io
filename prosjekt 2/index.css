@@ -4,6 +4,8 @@ body {
   margin:0;
   background-color: #f2f2f2
 }
+
+/*NAV-hovedside start*/
 .nav-main,.sortering-Nav {
   width: 100%;
   background-color: #222;
@@ -22,13 +24,14 @@ body {
   list-style-type: none;
 }
 .nav-main>ul>li {
-  width: 142px;
+  width: 152px;
   float: left;
   text-align: center;
 }
 .nav-item {
   display:inline-block;
-  padding: 15px 20px;
+  width: 140px;
+  padding: 15px 2px;
   height: 40px;
   line-height: 40px;
   color: #fff;
@@ -42,76 +45,470 @@ ul>li>a>img>.handlekurv {
   height: 100px;
   padding: 15px 30px;
 }
-main>.hovedbilde {
-
+#handlekurv_bilde {
+  width: 27px;
+  margin-top: 9px;
 }
-.sortering-Nav>ul {
+main>.bilde_start{
+  background-image: url("bilder/HovedB1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 350px;
+}
+main>.bilde_start>img {
+  width: 100%;
+  height: 350px;
+}
+main>.index_bilder {
+  display: grid;
+  width: 98.611%;
   margin: auto;
-  width: 600px;
-  padding: 0;
-  list-style-type: none;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  grid-template-columns: 1fr 1fr;
 }
-.sortering-Nav>ul>li {
-  width: 180px;
-  display:inline-block;
+main>.index_bilder>.bilde_index>.index_Btekst {
+  margin: auto;
   text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
 }
-.sortering-Nav>ul>li>.nav-item {
-  padding-left: 50px;
-  padding-right: 50px;
+main>.index_bilder>.bilde_index {
+  width: 100%;
 }
-.nav-content {
-  position: absolute;
-  width: 180px;
-  top: 155px;
-  left: 428px;
+main>.index_bilder>.bilde_index>a>img {
+  width: 98.611%;
+  display: block;
+  margin: auto;
+}
+main>.bilde_slutt {
+  width: 98.611%;
+  margin: auto;
+}
+main>.bilde_slutt>a>img {
+  margin: auto;
+  width: 100%;
+}
+main>.bilde_slutt>.index_Btekst {
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+}
+/*CSS-hovedside slutt*/
+
+/*CSS-sorteringsNAV start*/
+.navbar {
   overflow: hidden;
   background: #222;
-  max-height: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 70px;
 }
-.nav-content2 {
-  position: absolute;
-  width: 180px;
-  top: 155px;
-  left: 615px;
+#handlekurv_bilde {
+  width: 27px;
+  margin-top: 9px;
+}
+.dropdown {
+  width: 820px;
+  margin: auto;
   overflow: hidden;
-  background: #222;
-  max-height: 0;
+  margin-top: 0;
 }
-.nav-content3 {
-  position: absolute;
-  width: 180px;
-  top: 155px;
-  left: 800px;
-  overflow: hidden;
-  background: #222;
-  max-height: 0;
+.dropdown>.dropbtn1,.dropbtn2 {
+  cursor: pointer;
+  height: 70px;
+  width: 300px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
 }
-.nav-content>.nav-sub>ul>li {
-  color: #fff;
+.dropdown>.dropbtn1 {
+  margin-left: 78px;
+  margin-right: 60px;
 }
-.nav-sub {
-  padding: 20px;
-}
-.nav-sub>ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-.nav-sub>ul>li>button {
-  border-color: white;
-  padding: 5px 10px;
-  margin-bottom: 5px;
-}
-.nav-item:focus {
+.dropbtn1:hover,.dropbtn2:hover {
   background-color: #444;
 }
-.nav-item:focus ~ .nav-content {
-  max-height: 400px;
+.dropdown-innhold {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
-.nav-item:focus ~ .nav-content2 {
-  max-height: 400px;
+#myDropdown1 {
+  margin-left: 78px ;
+  width: 300px;
 }
-.nav-item:focus ~ .nav-content3 {
-  max-height: 400px;
+#myDropdown2 {
+  margin-left: 443px;
+  width: 300px;
 }
+.dropdown-innhold>button {
+  width: 160px;
+  margin-left: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 5px 10px;
+  color: #333;
+}
+.dropdown-innhold>button>p {
+  color: black;
+}
+.show {
+  display: block;
+}
+/*CSS-sorteringsNAV slutt*/
+
+/*CSS-kaffer start*/
+main>.hovedbilde {
+  width: 100%;
+  height: 350px;
+}
+main>.hovedbilde>img {
+  width: 100%;
+  height: 350px;
+}
+#secKaffe {
+  margin-top: 50px;
+  width: 98.611%;
+  margin: auto;
+}
+#secKaffe>.kaffer:hover {
+  box-shadow: 1px 1px 1px 1px grey;
+}
+#secKaffe {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 42px;
+  grid-row-gap: 42px;
+}
+#secKaffe>.kaffer {
+  width: 323px;
+  margin: auto;
+  background-color: white;
+}
+#secKaffe>.kaffer>a>img {
+  display: block;
+  width: 323px;
+}
+#secKaffe>.kaffer>p {
+  padding-left: 15px
+
+}
+#secKaffe>.kaffer>.action {
+  text-align: center;
+  width: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 125px;
+  margin-bottom: 5px;
+  background-color: #00cc44;
+  border-radius: 5%;
+}
+#secKaffe>.kaffer>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+
+}
+#secKaffe>.kaffer>.action:hover {
+  background-color: #00e64d;
+}
+#secKaffe>.kaffer {
+  margin-top: 50px;
+}
+#secKaffe>.kaffer>h3 {
+  font-size: 25px;
+  text-align: center;
+}
+/*CSS-Kaffer slutt*/
+
+/*CSS-Kaffe enkeltsider start*/
+#kaffer {
+  padding-top: 100px;
+  width: 98.611%;
+  margin: auto;
+}
+#kaffer>.kaffer_alt {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 42px;
+  grid-row-gap: 42px;
+  margin-bottom: 100px;
+}
+#kaffer>.kaffer_alt>.kjøp_info,.kaffer_info,.kaffer_innhold {
+  background-color: white;
+}
+#kaffer>.kaffer_alt>.kjøp_info {
+  height: 580px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kjøp_info_tekst {
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action {
+  text-align: center;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  background-color: #00cc44;
+  border-radius: 5%;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action:hover {
+  background-color: #00e64d;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.usynlig {
+height: 42px;
+background-color: #f2f2f2;
+color: #f2f2f2;
+margin-top: 5px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold {
+  height: auto;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>h3 {
+  font-size: 35px;
+  text-align: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 80px;
+  border-top: solid 2px #cccccc;
+  display: flex;
+  align-items: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>#li1 {
+  border: none;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.bønne_ikon>img,.tørket_ikon>img,.høyde_ikon>img {
+  height: 80px;
+  width: 120px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.tekst_liste {
+  padding-left: 50px;
+  font-size: 25px;
+  align-items: center;
+}
+#kaffer>.kaffer_alt>.kaffer_info>.tekst {
+  width: 900px;
+  margin: auto;
+}
+#kaffer>.kaffer_alt>.kaffer_info>.kart>img {
+  display: block;
+  width: 600px;
+  margin: auto;
+}
+/*CSS-Kaffe enkeltsider slutt*/
+
+/*CSS-Kaffe_helse start*/
+#helse>.helse_innhold {
+  width: 69.444%;
+  margin: auto;
+}
+#helse>.helse_innhold>.helse_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#helse>.helse_innhold>.helse_overskrift>img {
+  width: 80%;
+  margin: auto;
+}
+#helse>.helse_innhold>.helse_generelt {
+  width: 80%;
+  margin: auto;
+}
+#helse>.helse_innhold>.helse_info1,.helse_info2,.helse_info3 {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 5px;
+  border-bottom: solid 2px #cccccc;
+  border-bottom-width: 2px;
+}
+#helse>.helse_innhold>.helse_info3 {
+  border-bottom-color: white;
+}
+/*CSS-Kaffe_helse slutt*/
+
+/*CSS-Kontakt start*/
+#kontakt>.kontakt_innhold {
+  width: 69.444%;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+#kontakt>.kontakt_innhold>.kontakt_bilde>img {
+  width: 55.556%;
+  margin: auto;
+}
+/*CSS-Kontakt slutt*/
+
+/*CSS-Handlekurv start*/
+#handlekurv>.handleliste_alt>.handleliste_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table {
+  width: 98.611%;
+  background-color: white;
+  margin: auto;
+  border-style: solid;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>thead {
+  padding-top: 5px;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>thead>tr>th {
+  border-bottom: solid 2px #cccccc;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>tbody>tr>td {
+  width: 24.64%;
+  text-align: center;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>tbody>tr>td>img {
+  width: 50%;
+  height: 130px;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action {
+  text-align: center;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  background-color: #00cc44;
+  border: solid 2px grey;
+  margin-top: 5px;
+  }
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action:hover {
+  background-color: #00e64d;
+}
+/*CSS-Handlekurv slutt*/
+
+/*CSS-footer start*/
+footer {
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.footer_logo {
+  width: 120px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+footer>.footer_info>ul {
+  width: 160px;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+footer>.footer_info>ul>.footer_epost>li>a {
+  text-decoration: none;
+  color: #333;
+}
+/*CSS-footer slutt*/
+
+/*CSS-dynamisk side start*/
+@media (max-width: 1400px) {
+  #secKaffe {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  main>.index_bilder>.bilde_index>.index_Btekst {
+    font-size: 26px;
+  }
+  main>.bilde_slutt>.index_Btekst {
+    font-size: 26px;
+  }
+}
+@media (max-width: 1068px) {
+  #secKaffe {
+    grid-template-columns: 1fr 1fr;
+  }
+  main>.index_bilder>.bilde_index>.index_Btekst {
+    font-size: 16px;
+  }
+  main>.bilde_slutt>.index_Btekst {
+    font-size: 16px;
+  }
+}
+@media (max-width:900px) {
+  .navbar {
+    height: 0;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  .dropdown>.dropbtn1,.dropbtn2 {
+    height: 50px;
+    width: 100px;
+    padding: 14px 16px;
+  }
+  .dropdown-innhold {
+    height: 0;
+  }
+}
+@media (max-width:700px) {
+  #secKaffe {
+    grid-template-columns: 1fr;
+  }
+  #helse>.helse_innhold>.helse_overskrift {
+    font-size: 28px;
+  }
+  .nav-main {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  main>.bilde_start {
+    background-image: url("bilder/HovedB1_liten.jpg");
+  }
+  main>.index_bilder {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+  main>.index_bilder>.bilde_index>.index_Btekst {
+    font-size: 20px;
+  }
+  main>.bilde_slutt>.index_Btekst {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+/*CSS-Dynamisk side slutt*/

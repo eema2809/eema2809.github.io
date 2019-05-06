@@ -194,7 +194,7 @@
               "1.900 - 2.100 moh."
           ],
           "info" : "<p>Gotu Karu er en kompleks kaffe fra Etiopia med mange lag. I smaksbildet finner vi toner av steinfrukt, melon og tropisk frukt. Gotu Karu er søt med et fint floralt preg. Bløt munnfølelse og lang ettersmak.</p> <p>Gotu Karu er en høykvalitetskaffe fra Guji regionen i Etiopia. Farmen ligger på nesten 2.100 høydemeter i et næringsrikt vulkansk jordsmonn. Dette gir kaffen optimale forhold.</p>",
-          "bilde" : "bilder/gotu_karu.jpg"
+          "bilde" : "/bilder/gotu_karu.jpg"
       },
       "014" : {
           "tittel" : "IP SL 28",
@@ -223,7 +223,7 @@
               "Tørket med fruktkjøtt",
               "1.700 - 1.900 moh."
           ],
-          "info" : "<p>La Roca er en klassisk og velbalansert kaffe fra Costa Rica med et deilig sjokoladepreg. Kaffen har en fruktsødme som minner oss om røde plommer. Litt vaniljeaktig sødme i finishen.</p>",
+          "info" : "<p>La Roca er en klassisk og velbalansert kaffe fra Costa Rica med et deilig sjokoladepreg. Kaffen har en fruktsødme som minner oss om røde plommer. Litt vaniljeaktig sødme i finishen.<p>",
           "bilde" : "bilder/roca.jpg"
       }
   }

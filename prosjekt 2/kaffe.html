@@ -4,19 +4,20 @@
     <meta charset="utf-8">
     <title>Kaffe</title>
     <link rel="stylesheet" href="index.css">
-<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyBBJqkG2YoFZ86_GtmLXK3ZhdPOzqlf4OQ",
-    authDomain: "prosjekt-vaar2019.firebaseapp.com",
-    databaseURL: "https://prosjekt-vaar2019.firebaseio.com",
-    projectId: "prosjekt-vaar2019",
-    storageBucket: "prosjekt-vaar2019.appspot.com",
-    messagingSenderId: "978862746317"
-  };
-  firebase.initializeApp(config);
-</script>
+    <link rel="icon" type="image/png" href="bilder/ikon.png">
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBBJqkG2YoFZ86_GtmLXK3ZhdPOzqlf4OQ",
+        authDomain: "prosjekt-vaar2019.firebaseapp.com",
+        databaseURL: "https://prosjekt-vaar2019.firebaseio.com",
+        projectId: "prosjekt-vaar2019",
+        storageBucket: "prosjekt-vaar2019.appspot.com",
+        messagingSenderId: "978862746317"
+      };
+      firebase.initializeApp(config);
+    </script>
   </head>
   <body>
     <header>
@@ -31,20 +32,44 @@
             <a class="nav-item" href="kaffer.html">Kaffe</a>
           </li>
           <li>
-            <a class="nav-item" href="kaffeOgHelse.html">Kaffe og helse</a>
+            <a class="nav-item" href="kaffe&Helse.html">Kaffe og helse</a>
           </li>
             <li>
             <a class="nav-item" href="Kontakt.html">Kontakt oss</a>
           </li>
           <li>
-            <a class="nav-item" class="nav-handlekurv" href="handlekruv.html"><img src="bilder/handlekurv.svg" alt="handlekurv ikon"></a>
+            <a class="nav-item" class="nav-handlekurv" href="handlekurv.html"><img src="bilder/handlekurv.svg" id="handlekurv_bilde" alt="handlekurv ikon"></a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="kaffer">
 
     </main>
+    <footer>
+      <div class="footer_logo">
+        <a href="index.html"><img src="bilder/Logo_footer.svg" alt="Logo"></a>
+      </div>
+      <div class="footer_info">
+        <ul>
+          <div class="footer_navn">
+            <li><b>Kaffehuset</b></li>
+          </div>
+          <br>
+          <div class="footer_adresse">
+            <li>Nedre Slottsgate 9</li>
+          </div>
+          <br>
+          <div class="footer_postnr">
+            <li>0157 Oslo</li>
+          </div>
+          <br>
+          <div class="footer_epost">
+          <li><a href="mailto:post@kaffehuset.no">post@kaffehuset.no</a></li>
+          </div>
+        </ul>
+      </div>
+    </footer>
 
     <script type="text/javascript">
     const main = document.querySelector("main");
@@ -88,8 +113,16 @@
                 <h3>Innhold</h3>
                 <ul>
                   <li id="li1">
-                    <span class="bønne_ikon"><img src="bilder/bønner-bilde copy.svg" alt=""></span>
-                    <span class="tekst_liste">${object.innhold}</span> //Hvordan velger jeg bare den første arrayen på lista
+                    <span class="bønne_ikon"><img src="bilder/bønner-bilde copy.svg" alt="bønner"></span>
+                    <span class="tekst_liste">${object.innhold[0]}</span>
+                  </li>
+                  <li id="li2">
+                    <span class="tørket_ikon"><img src="bilder/tørket.svg" alt="tørket"></span>
+                    <span class="tekst_liste">${object.innhold[1]}</span>
+                  </li>
+                  <li id="li3">
+                    <span class="høyde_ikon"><img src="bilder/fjell.svg" alt="fjell"></span>
+                    <span class="tekst_liste">${object.innhold[2]}</span>
                   </li>
                 </ul>
               </div>
@@ -105,8 +138,6 @@
 
 
     </script>
-
-    <footer></footer>
 
   </body>
 </html>
