@@ -200,7 +200,9 @@ main>.hovedbilde>img {
 }
 #secKaffe>.kaffer>p {
   padding-left: 15px
-
+}
+#secKaffe>.kaffer>.beskrivelse {
+  height: 36px;
 }
 #secKaffe>.kaffer>.action {
   text-align: center;
