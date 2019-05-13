@@ -1,0 +1,77 @@
+"oppgaver":{
+  "oppg1":{
+    "svar":"En primærnøkkel en identifikator som gjør at vi kan rakst kan finne alle opplysninger til et bestemt objekt."
+  },
+  "oppg2":{
+    "svar a":"brukernavn på ITL.",
+    "svar b":"registreringsnummer.",
+    "svar c":"latinske navn.",
+    "svar d":"tlf. nummer.",
+    "svar e":"navn og nummer."
+  },
+  "oppg3":{
+    "svar":"Kandidatnøkler er alle alternativene som kan brukes som primærnøkkel."
+  },
+  "oppg4":{
+    "svar":"En fremmednøkkel er en referanse man bruker for å koble nye data til primærnøkler uten at det blir dobbeltlagring."
+  },
+  "oppg5":{
+    "svar":"Teknikker som blir brukt for å unngå dobbeltlagring og duplisering av data, kalles normalisering."
+  },
+  "oppg6":{
+    "svar":{
+      "spillere":{
+        "tt3820162":{
+          "brukernavn":"adam.kul123",
+          "gatenavn":"Elvegangen",
+          "gatenummer":"13C",
+          "navn":"Adam Gru"
+        },
+        "bg2734592":{
+          "brukernavn":"xxxgregers123",
+          "gatenavn":"Bondelia",
+          "gatenummer":"1A",
+          "navn":"Gregers Steinli"
+        }
+      },
+      "meldinger":{
+        "001":{
+          "tekst":"bra spilt!",
+          "brukerID":"tt3820162"
+        },
+        "002":{
+          "tekst":"ikke du:P",
+          "brukerID":"bg2734592"
+        },
+        "003":{
+          "tekst":"wow smh",
+          "brukerID":"tt3820162"
+        }
+      }
+    }
+  },
+  "oppg7":{
+    "svar":{
+      "filmer":{
+        "f3":{
+          "tittel":"Sharknado",
+          "regissør":"Bob Stern",
+          "selskap":"Universal Studios",
+          "utgitt":2004
+        },
+        "f5":{
+          "tittel":"Sharknado",
+          "regissør":"Steven Spielberg",
+          "selskap":"Paramount",
+          "utgitt":2004
+        },
+        "f8":{
+          "tittel":"E.T.",
+          "regissør":"Steven Spielberg",
+          "selskap":"Paramount",
+          "utgitt":2009
+        }
+      }
+    }
+  }
+}

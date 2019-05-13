@@ -1,0 +1,32 @@
+{
+    "prosjekter" : {
+        "Nettvett" : {
+            "tittel" : "Datasikkerhet og nettvett",
+            "link":"nettvett/index.html",
+            "beskrivelse" : "En rekke spørsmål og svar rundt sikkerheten på internett.",
+            "tema" : "Nettvett",
+            "bilde" : "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        "Prosjekt1" : {
+            "tittel" : "Nettsted og multimedier",
+            "link":"prosjekt/index.html",
+            "beskrivelse" : "Et stort prosjekt hvor jeg lagde et kaffe-nettsted med mange undersider.",
+            "tema" : "Multimedier",
+            "bilde" : "https://images.pexels.com/photos/951228/pexels-photo-951228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        "DigitalSamtid" : {
+            "tittel" : "Digital Samtid",
+            "link":"Digital_samtid/index.html",
+            "beskrivelse" : "En rekke spørsmål og svar rundt den digitale samtiden vi lever i.",
+            "tema" : "Digital samtid",
+            "bilde" : "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        "Prosjekt2" : {
+            "tittel" : "Nettsted med database",
+            "link":"prosjekt2/index.html",
+            "beskrivelse" : "Tok kaffe-nettstedet et steg videre og lagde den på nytt med database, javascript og nytt design.",
+            "tema" : "database",
+            "bilde" : "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        }
+    }
+}

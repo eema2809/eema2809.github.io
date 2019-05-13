@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>portefølje</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD8sXeJXyJHWl8LLNaKAKcCLEA6Qvclexw",
+        authDomain: "mittprosjekt-d6f00.firebaseapp.com",
+        databaseURL: "https://mittprosjekt-d6f00.firebaseio.com",
+        projectId: "mittprosjekt-d6f00",
+        storageBucket: "mittprosjekt-d6f00.appspot.com",
+        messagingSenderId: "1080728351536"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+      <div class="intro">
+        <div class="intro_tekst">
+          <h1>Skoleelev siste år på VGS - IT1</h1>
+        </div>
+        <div class="intro_bilde">
+          <img src="https://cdn4.iconfinder.com/data/icons/toddler-doodle-1/517/14089629_1177645835590983_1269157826_n-512.png" alt="">
+        </div>
+        <div class="intro_navn">
+          <h3>Mads Olav Eek</h3>
+        </div>
+      </div>
+      <section id="prosjekt">
+
+      </section>
+    </main>
+
+    <script type="text/javascript">
+      // HTML elementer
+      const main = document.querySelector("#prosjekt");
+
+      // database
+      const db = firebase.database();
+      const prosjekter = db.ref("portefølje/prosjekter");
+
+      function visProsjekt(snap){
+        const key = snap.key;
+        const prosjekt = snap.val();
+
+        const bilder = prosjekt.bilde;
+
+        main.innerHTML +=`
+          <article style="background-image:url('${prosjekt['bilde']}')">
+            <h1>${prosjekt.tittel}</h1>
+            <p>${prosjekt.beskrivelse}</p>
+            <a href="${prosjekt.link}">Les mer</a>
+          </article>
+        `;
+      }
+
+
+      // Hendelselyttere
+      prosjekter.on("child_added",visProsjekt);
+    </script>
+  </body>
+</html>

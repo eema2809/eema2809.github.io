@@ -1,0 +1,349 @@
+body {
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+  margin:0;
+  background-color: #f2f2f2
+}
+/*CSS-Navbar start*/
+header {
+  height: 130px;
+  width:100%;
+  color: black;
+  background-color: white;
+}
+#logo {
+  width: 75px;
+  margin: auto;
+}
+#handlekurv_bilde {
+  width: 27px;
+  margin-left: 61.5px;
+  margin-top: 54.165px;
+}
+header>nav {
+  display: grid;
+  width: 1440px;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(130px,130px);
+  position: absolute;
+}
+header>nav>.lenke {
+  align-self: center;
+  text-align: center;
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header>nav>.lenke>a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 5px;
+}
+header>nav>.lenke1 {
+  align-self: center;
+  text-align: center;
+  width: 160px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header>nav>.lenke1>a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 5px;
+  border-bottom: 2px solid #4d4d4d;
+}
+header>nav>.lenke>a:hover {
+  border-bottom: 2px solid #4d4d4d;
+  text-decoration: none;
+}
+/*CSS-Navbar slutt*/
+
+/*CSS-Main og Kaffe start*/
+main>.forside_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+}
+main>.forside_grid>.forside_bilder_stor {
+  grid-column: span 6;
+  grid-row: span 4;
+  margin-bottom: 75px;
+}
+main>.forside_grid>.forside_bilder_stor>img {
+  display: block;
+  width: 1420px;
+  margin: auto;
+}
+main>.forside_grid>.forside_bilder_middel {
+  grid-column: span 3;
+  grid-row: span 3;
+}
+main>.forside_grid>.forside_bilder_middel>img {
+  display: block;
+  width: 692.5px;
+  margin: auto;
+}
+main>.bestselgere_alt {
+  margin-top: 150px;
+  margin-left: 10px;
+  width: 1420px;
+}
+main>.bestselgere_alt>.bestselgere_overskrift {
+  font-size: 35px;
+}
+main>.bestselgere_alt>.bestselgere_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 42px;
+  grid-row-gap: 42px;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere {
+  width: 323px;
+  background-color: white;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.bestselgere_bilder>a>img {
+  display: block;
+  width: 323px;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.bestselgere_head,.bestselgere_pris,.bestselgere_tekst {
+  padding-left: 15px
+
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action {
+  text-align: center;
+  width: 75px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 125px;
+  margin-bottom: 5px;
+  background-color: #00cc44;
+  border-radius: 5%;
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+
+}
+main>.bestselgere_alt>.bestselgere_grid>.bestselgere>.action:hover {
+  background-color: #00e64d;
+}
+#kaffe>.bestselgere_alt {
+  margin-top: 50px;
+}
+#kaffe>.bestselgere_alt>.bestselgere_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+/*CSS-Main og Kaffe slutt*/
+
+/*CSS-Kaffe_helse start*/
+#helse>.helse_innhold {
+  width: 1000px;
+  margin: auto;
+}
+#helse>.helse_innhold>.helse_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#helse>.helse_innhold>.helse_overskrift>img {
+  width: 800px;
+  margin: auto;
+}
+#helse>.helse_innhold>.helse_generelt {
+  width: 800px;
+  margin: auto;
+}
+#helse>.helse_innhold>.helse_info1,.helse_info2,.helse_info3 {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 5px;
+  border-bottom: solid 2px #cccccc;
+  border-bottom-width: 2px;
+}
+#helse>.helse_innhold>.helse_info3 {
+  border-bottom-color: white;
+}
+/*CSS-Kaffe_helse slutt*/
+
+/*CSS-Kontakt start*/
+#kontakt>.kontakt_innhold {
+  width: 1000px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+#kontakt>.kontakt_innhold>.kontakt_bilde>img {
+  width: 800px;
+  margin: auto;
+}
+/*CSS-Kontakt slutt*/
+
+/*CSS-Kaffe enkeltsider start*/
+#kaffer {
+  padding-top: 150px;
+  width: 1420px;
+  margin: auto;
+}
+#kaffer>.kaffer_alt {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 42px;
+  grid-row-gap: 42px;
+}
+#kaffer>.kaffer_alt>.kjøp_info,.kaffer_info,.kaffer_innhold {
+  background-color: white;
+}
+#kaffer>.kaffer_alt>.kjøp_info {
+  height: 580px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kjøp_info_tekst {
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action {
+  text-align: center;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  background-color: #00cc44;
+  border-radius: 5%;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.action:hover {
+  background-color: #00e64d;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.usynlig {
+height: 42px;
+background-color: #f2f2f2;
+color: #f2f2f2;
+margin-top: 5px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold {
+  height: auto;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>h3 {
+  font-size: 35px;
+  text-align: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  height: 80px;
+  border-bottom: solid 2px #cccccc;
+  display: flex;
+  align-items: center;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>#li1 {
+  border: none;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.bønne_ikon>img,.tørket_ikon>img,.høyde_ikon>img {
+  height: 80px;
+  width: 120px;
+}
+#kaffer>.kaffer_alt>.kjøp_info>.kaffer_innhold>ul>li>.tekst_liste {
+  padding-left: 50px;
+  font-size: 25px;
+  align-items: center;
+}
+#kaffer>.kaffer_alt>.kaffer_info>.tekst {
+  width: 900px;
+  margin: auto;
+}
+#kaffer>.kaffer_alt>.kaffer_info>.kart>img {
+  display: block;
+  width: 600px;
+  margin: auto;
+}
+/*CSS-Kaffe enkeltsider slutt*/
+
+/*CSS-Handlekurv start*/
+#handlekurv>.handleliste_alt>.handleliste_overskrift {
+  font-size: 35px;
+  text-align: center;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table {
+  width: 1420px;
+  background-color: white;
+  margin: auto;
+  border-style: solid;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>thead {
+  padding-top: 5px;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>thead>tr>th {
+  border-bottom: solid 2px #cccccc;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>tbody>tr>td {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>table>tbody>tr>td>img {
+  width: 130px;
+  height: 130px;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action {
+  text-align: center;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  background-color: #00cc44;
+  border: solid 2px grey;
+  margin-top: 5px;
+  }
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action>a {
+  text-decoration: none;
+  font-family: curriur, arial, verdana, sans-serif;
+  color: #333;
+}
+#handlekurv>.handleliste_alt>.handleliste_innhold>.action:hover {
+  background-color: #00e64d;
+}
+/*CSS-Handlekurv slutt*/
+
+/*CSS-Footer start*/
+footer {
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer_logo {
+  width: 120px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+footer>.footer_tekst>.footer_info>ul {
+  width: 160px;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+footer>.footer_tekst>.footer_info>ul>.footer_epost>li>a {
+  text-decoration: none;
+  color: #333;
+}
+/*CSS-Footer slutt*/

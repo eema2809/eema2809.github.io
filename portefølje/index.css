@@ -1,0 +1,71 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: lightseagreen;
+  font-family: sans-serif;
+  color: white;
+}
+main .intro .intro_tekst,.intro_navn {
+  text-align: center;
+  margin: auto;
+  color: #1a1a1a;
+}
+main .intro .intro_bilde img{
+  background-color: white;
+  padding: 25px 50px 25px 50px;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+  height: 125px;
+}
+#prosjekt {
+  display: grid;
+  padding-top: 4rem;
+  max-width: 970px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+#prosjekt article {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#prosjekt article p {
+  background-color: orange;
+  font-weight: bold;
+  transform: translateX(-200%);
+  transition: 0.5s;
+  color: #1a1a1a;
+}
+
+#prosjekt article:hover p {
+  transform: translateX(0);
+}
+
+#prosjekt article a {
+  background-color: orange;
+  color: #1a1a1a;
+  padding: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transform: translateX(200%);
+  transition: 0.5s;
+}
+
+#prosjekt article:hover a {
+  transform: translateX(0);
+}
+#prosjekt article background-image:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}

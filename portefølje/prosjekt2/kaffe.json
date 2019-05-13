@@ -1,0 +1,230 @@
+{
+  "kaffer" : {
+      "001" : {
+          "tittel" : "Påskekaffe",
+          "sted" : "Carmo de Minas",
+          "land" : "Brasil",
+          "verdensdel" : "Sør-Amerika",
+          "beskrivelse" : "Smak av fløtekaramell, melkesjokolade & appelsin",
+          "pris" : 114,
+          "innhold" : [
+              "Gul Bourbon",
+              "Tørkte med fruktkjøtt",
+              "1.150 moh."
+          ],
+          "info" : "<p>Vi har valgt en klassisk kaffe fra Brasil som årets Påskekaffe. Kaffen er kremete med stor sødme. Smaken minner oss om fløtekaramell, melkesjokolade og saftig appelsin. Perfekt til frokost eller med vår gode påskesjokolade!</p> <p>Påskekaffen egner seg godt på de klassiske bryggemetodene som trakter, presskanne og kokekaffe, men den er også utmerket som et håndbrygg. Det er mye sjokoladenoter i kaffen som gjør at kaffen er veldig god å drikke ved siden av konfekt og sjokolade.</p>",
+          "bilde" : "bilder/Paaskekaffe.jpg"
+
+      },
+      "002" : {
+          "tittel" : "Danny",
+          "sted" : "El Cedral - Santa Barbara",
+          "land" : "Honduras",
+          "verdensdel" : "Nord-Amerika",
+          "beskrivelse" : "Smak av multer, fløte & appelsin",
+          "pris" : 129,
+          "innhold" : [
+              "Pacas",
+              "Tørkte uten fruktkjøtt",
+              "1.550 moh."
+          ],
+          "info" : "<p>Smaksbildet i denne kaffen minner oss om multekrem og appelsin. En fantastisk godt balansert kaffe og en perfekt start på dagen.</p> <p>Danny er en av syv brødre i den berømte kaffefamilien Moreno. Farmen hans heter La Sierra og ligger i regionen Santa Barbara. Det er krevende arbeid å plukke kaffe i de bratte åssidene hvor hyppige regnbyger i tillegg gjør det glatt. Moreno familien samarbeider tett og driver blant annet en egen prosesseringsmølle.</p>",
+          "bilde" : "bilder/Danny.jpg"
+      },
+      "003" : {
+          "tittel" : "La Merced",
+          "sted" : "Chimaltenango",
+          "land" : "Guatemala",
+          "verdensdel" : "Nord-Amerika",
+          "beskrivelse" : "Smak av melkesjokolade, appelsin & marsipan",
+          "pris" : 109,
+          "innhold" : [
+              "Bourbon",
+              "Tørkte uten fruktkjøtt",
+              "1.900 moh."
+          ],
+          "info" : "<p>Årets innhøsting fra La Merced er fløyelsmyk med et smaksbilde som minner oss om melkesjokolade, appelsin og marsipan. Nyt kaffen til frokost, etter et godt måltid eller med vår smaksrike sjokolade.</p> <p>La Merced har vært familiedrevet siden 1832 og drives i dag av femte generasjon. Kaffe har vært dyrket her siden 1912 og farmen har vært gjennom både borgerkrig og naturkatastrofer.</p>",
+          "bilde" : "bilder/La_merced.jpg"
+      },
+      "004" : {
+        "tittel" : "La Escondida",
+        "sted" : "Jinotega",
+        "land" : "Nicaragua",
+        "verdensdel" : "Nord-Amerika",
+        "beskrivelse" : "Smak av fløtekaramell, hasselnøttpraline & vanilje",
+        "pris" : 109,
+        "innhold" : [
+            "Ethiosar",
+            "Tørkte med fruktkjøtt",
+            "1.100 - 1.250 moh."
+        ],
+        "info" : "<p>En fløyelsmyk perle fra våre gode venner i Mierisch familien. Munnfølelsen er kremete og smaksbildet har toner av fløtekaramell, hasselnøttpraline og vanilje.</p> <p>Dette er fjerde året på rad vi tilbyr La Escondida. Kaffen er av den sjeldne bønnetypen Ethiosar som er en krysning mellom Rume Sudan, Sarchimor og Villa Sarch.</p> <p>Mierisch er Nicaraguas største kvalitetspådrivere innen spesialkaffe og en av våre nære Direkte Handel partnere.</p>",
+        "bilde" : "bilder/La_Escondia.jpg"
+      },
+      "005" : {
+          "tittel" : "Kianyangi",
+          "sted" : "Embu",
+          "land" : "Kenya",
+          "verdensdel" : "Afrika",
+          "beskrivelse" : "Smak av ananas, rabarbra & røde plommer",
+          "pris" : 129,
+          "innhold" : [
+              "SL-28 & SL-34",
+              "Tørket uten fruktkjøtt",
+              "1.800 moh."
+          ],
+          "info" : "<p>En kompleks og frisk kaffe med heftig smaksintensitet. Smaken minner oss om moden ananas, rabarbra, røde plommer og moreller. Dette er kenyansk kaffe på sitt beste!</p> <p>Kenya er verdenskjent for høy kvalitet. Landet er som skapt for kaffedyrking med sitt næringsrike jordsmonn og optimale klimatiske forhold. Bønnetypene som dyrkes i Kenya er Bourbon varianter. Disse er valgt ut med hensyn på smak, utbytte og motstandsdyktighet.</p>",
+          "bilde" : "bilder/Kianyangi.jpg"
+      },
+      "006" : {
+          "tittel" : "Uraga",
+          "sted" : "Guji",
+          "land" : "Etiopia",
+          "verdensdel" : "Afrika",
+          "beskrivelse" : "Smak av søt mango, sitronzest & humle",
+          "pris" : 109,
+          "innhold" : [
+              "Heirloom",
+              "Tørket uten fruktkjøtt",
+              "1.900 - 2.200 moh."
+          ],
+          "info" : "<p>Uraga er en sødmefylt og leskende kaffe med et tydelig floralt preg. Kaffen er på mange måter delikat, men har likevel god smaksintensitet. Uraga har et velutviklet smaksbilde med toner av mango, sitronzest og humle.</p>",
+          "bilde" : "bilder/Uraga.jpg"
+      },
+      "007" : {
+          "tittel" : "Badnekhan",
+          "sted" : "Karnataka",
+          "land" : "India",
+          "verdensdel" : "Asia",
+          "beskrivelse" : "Smak av hasselnøtter, sjokolade & mango lassi",
+          "pris" : 97,
+          "innhold" : [
+              "SL 795",
+              "Tørket uten fruktkjøtt",
+              "1.100 moh."
+          ],
+          "info" : "<p>En sødmefylt indisk kaffe. Badnekhan har en utpreget nøttesmak med noter av sjokolade og honning. Elementer av søt frukt og krydder med innslag av kardemomme.</p> <p>En klassisk indisk kaffe fra den prisvinnende farmen Badnekhan i India. Farmen ligger sørvest i India langs fjellsidene på Merthi Peak. Farmeren Prem Kuriyan har en kvalitetsbevisst tilnærming til dyrking av kaffe og regnes som en av Indias beste kaffeprodusenter.</p>",
+          "bilde" : "bilder/Badnekhan.jpg"
+      },
+      "008" : {
+          "tittel" : "Royal Malabar",
+          "sted" : "Karnataka",
+          "land" : "India",
+          "verdensdel" : "Asia",
+          "beskrivelse" : "Intens aroma og spennende nyanser av krydder, litt tjære og søt tobakk",
+          "pris" : 89,
+          "innhold" : [
+              "SL 795",
+              "Tørket uten fruktkjøtt",
+              "1200 moh."
+          ],
+          "info" : "<p>Royal Malabar har en intens aroma og spennende nyanser av krydder, litt tjære og søt tobakk. Denne kaffen passer godt til espresso, presskanne og trakterkaffe. Royal Malabar ligger i jutesekker i åpne lager ved Malabarkysten. Salte vinder fra havet og regnvann fukter kaffesekkene før den varme solen som følger tørker kaffen igjen. Dette kalles monsunering, og gir helt unike smakskarakterer til kaffen.</p>",
+          "bilde" : "bilder/Royal_malabar.jpg"
+      },
+      "009" : {
+          "tittel" : "Sendero",
+          "sted" : "Huehuetenango",
+          "land" : "Guatemala",
+          "verdensdel" : "Nord-Amerika",
+          "beskrivelse" : "Smak av sukkerrør, syltet ingefær & røde epler",
+          "pris" : 109,
+          "innhold" : [
+              "Bourbon",
+              "Tørket m/noe fruktkjøtt",
+              "1.400 - 1.600 moh."
+          ],
+          "info" : "<p>En fantastisk kaffe med en sødme som minner om sukkerrør. Sendero er kompleks med et interessant smaksbilde av syltet ingefær og saftige røde epler. Balansert ettersmak.</p> <p>Sendero ligger i prisbelønte Huehuetenango. Regionen har et utmerket klima for kaffedyrking. Terrenget består av bratte åssider og det er en fysisk krevende jobb å dyrke kaffe i stedt.</p>",
+          "bilde" : "bilder/Sendero.jpg"
+      },
+      "010" : {
+          "tittel" : "Colombia Espresso",
+          "sted" : "Huila",
+          "land" : "Colombia",
+          "verdensdel" : "Sør-Amerika",
+          "beskrivelse" : "Smak av appelsin, sjokolade & bringebær",
+          "pris" : 98,
+          "innhold" : [
+              "Caturra, Castilla, Typica & Bourbon",
+              "Tørket uten fruktkjøtt",
+              "1500 - 1900 moh."
+          ],
+          "info" : "<p>Colombia Espresso har en bærpreget aroma. I smaken finner vi bringebær, frisk appelsin og melkesjokolade. Kaffen er balansert med en bløt munnfølelse.</p> <p>Colombia Espresso kommer fra et interessefelleskap med farmere i den anerkjente Huila regionen. Kaffebøndene er dedikerte og meget proft organisert. De utveksler erfaringer og setter strenge kvalitetskrav for sikre den høyeste kvaliteten.</p>",
+          "bilde" : "bilder/colombia_esp.jpg"
+      },
+      "011" : {
+          "tittel" : "Luiz Paulo",
+          "sted" : "Carmo de Minas",
+          "land" : "Brasil",
+          "verdensdel" : "Sør-Amerika",
+          "beskrivelse" : "Smak av morell, hasselnøtt & sjokolade",
+          "pris" : 99,
+          "innhold" : [
+              "Gul Bourbon",
+              "Bærtørket",
+              "1.150 moh."
+          ],
+          "info" : "<p>Luiz Paulo er en fløyelsmyk brasiliansk kaffe med smak av morell, hasselnøtt og sjokolade. Kaffen har stor sødme og lang ettersmak.</p> <p>All innhøsting på farmen skjer for hånd. De bruker en duk de legger på bakken slik at ikke bønnene kommer i kontakt med jord. I Brasil er det vanlig å bruke maskiner til innhøsting da det flate landskapet tillater det. Maskinell plukking er mindre skånsomt enn håndplukking. Håndplukking sikrer også kvalitet i form av at det er større andel solmodne bær som plukkes og mindre sortering som må til i etterkant.</p>",
+          "bilde" : "bilder/LP.jpg"
+      },
+      "012" : {
+          "tittel" : "Concordia",
+          "sted" : "Medillin",
+          "land" : "Colombia",
+          "verdensdel" : "Sør-Amerika",
+          "beskrivelse" : "Smak av røde epler, vanilje & sukkerrør",
+          "pris" : 159,
+          "innhold" : [
+              "Bourbon",
+              "Tørket uten fruktkjøtt",
+              "1.450 - 1.600 moh."
+          ],
+          "info" : "<p>En smaksrik Bourbon kaffe med noter av røde epler, vanilje og sukkerrør. La Concordia er sødmefylt og har en velbalansert avslutning.</p> <p>Kaffefarmen La Concordia ligger perfekt til for dyrking av kvalitetskaffe i regionen ligger El Balsamo-Quezaltepeque. Vulkansk jordsmonn, kjølige netter, skyggetrær og lette regnbyger gir gode forutsetninger for å skape kvalitetskaffe. Kombinert med kvalitet i både plukking og sortering gir dette et perfekt resultat. Kaffen ble derfor hedret med 18. plass i den prestisjefylt kaffekonkurransen Cup of Excellence. Denne kaffen kommer fra Medillin, Colombia.</p>",
+          "bilde" : "bilder/concordia.jpg"
+      },
+      "013" : {
+          "tittel" : "Gotu Karu",
+          "sted" : "Guji",
+          "land" : "Etiopia",
+          "verdensdel" : "Afrika",
+          "beskrivelse" : "Smak av honningmelon, persimon & floral",
+          "pris" : 99,
+          "innhold" : [
+              "Heirloom",
+              "Tørket uten fruktkjøtt",
+              "1.900 - 2.100 moh."
+          ],
+          "info" : "<p>Gotu Karu er en kompleks kaffe fra Etiopia med mange lag. I smaksbildet finner vi toner av steinfrukt, melon og tropisk frukt. Gotu Karu er søt med et fint floralt preg. Bløt munnfølelse og lang ettersmak.</p> <p>Gotu Karu er en høykvalitetskaffe fra Guji regionen i Etiopia. Farmen ligger på nesten 2.100 høydemeter i et næringsrikt vulkansk jordsmonn. Dette gir kaffen optimale forhold.</p>",
+          "bilde" : "/bilder/gotu_karu.jpg"
+      },
+      "014" : {
+          "tittel" : "IP SL 28",
+          "sted" : "Carmo de Minas",
+          "land" : "Brasil",
+          "verdensdel" : "Sør-Amerika",
+          "beskrivelse" : "Smak av solbær, ananas & sjokolade",
+          "pris" : 129,
+          "innhold" : [
+              "SL 28",
+              "Tørket uten fruktkjøtt",
+              "1.150 moh."
+          ],
+          "info" : "<p>Dette kaffepartiet er noe så sjeldent som en SL28 fra Brasil. Denne bønnetypen er primært dyrket i Kenya. Nå er den kultivert frem på farmen IP som en en del av et samarbeidsprosjekt kalt Santuario Sul. Prosjektet ble startet av Luiz Paulo fra Brasil, Camilo Marizalde fra Colombia og Ivan Solis fra Costa Rica. Formålet med prosjektet er å kultivere bønnetyper som ikke er vanlig i Brasil, med det brasilianske jordsmonnet.</p>",
+          "bilde" : "bilder/IP-SL28.jpg"
+      },
+      "015" : {
+          "tittel" : "La Roca",
+          "sted" : "Tarrazú",
+          "land" : "Costa Rica",
+          "verdensdel" : "Nord-Amerika",
+          "beskrivelse" : "Smak av melkesjokolade, rød plomme & vanilje",
+          "pris" : 114,
+          "innhold" : [
+              "Catuai",
+              "Tørket med fruktkjøtt",
+              "1.700 - 1.900 moh."
+          ],
+          "info" : "<p>La Roca er en klassisk og velbalansert kaffe fra Costa Rica med et deilig sjokoladepreg. Kaffen har en fruktsødme som minner oss om røde plommer. Litt vaniljeaktig sødme i finishen.<p>",
+          "bilde" : "bilder/roca.jpg"
+      }
+  }
+}
